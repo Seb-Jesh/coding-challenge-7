@@ -1,0 +1,25 @@
+Build a fun quiz game in the console
+
+1. Build a function constructor called Question to describe a question. A question should 
+   include:
+a) question itself
+b) the answers from which the player can choose the correct one (choose an adequate data 
+   structure here; array, object, etc.
+c) correct answer ( I would use a number for this)
+
+2. Create a couple of questions using the constructor
+3. Store them all inside an array
+4. Select one random question and log it on the console, together with the possible answers
+   (each question should have a number) Hint: write a method for the question objects for
+   this task.
+5. Use the 'prompt' function to ask the user for the correct answer. The user should input
+   the number for the correct answer as in task 4
+6. Check if the answer is correct and print to the console whether the answer is correct
+   or not. Hint: write another method for this.
+7. Suppose this code would be a plugin for other programmers to use in their code. So make
+   sure that all the code is private and doesn't interfere with other code. Hint: Use
+   an IIFE.
+8. After you display the result, display the next random question, so that the game never 
+   ends. HINT: write a function for this and call it right after displaying the results.
+9. Include the option to quit the game if the user writes quit instead of an answer. In 
+   this case do not call the function from 8.        
